@@ -17,5 +17,7 @@ Instructions can be implemented in different programming languages and run on di
 
 ## Virtual Machine Characteristics
 * The virtual machine should be simple and straightforward. With strictly limited resources, the VM can be small enough to be copied in its entirety from one node to another. About 64Kb of addressable memory is a likely candidate.
+* A [Load/Store architecture](http://en.wikipedia.org/wiki/Load-store_architecture) entails that only registers and not the entire memory needs to be passed to an instruction node for computation.
 
 ## Roadmap
+TBD
