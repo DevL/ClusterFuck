@@ -1,8 +1,6 @@
 class Instruction
-  def self.performing
-    instruction = new
-    instruction.instance_variable_set(:@action, Proc.new) if block_given?
-    instruction
+  def initialize
+    @action = Proc.new if block_given?
   end
 
   def execute(memory, *operands)
