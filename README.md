@@ -3,7 +3,7 @@
 ## Introduction
 ClusterFuck (working name, subject to change) is an experiment in creating a _distributed_ programming language. It cannot be emphasised enough that it's not about creating programming language suitable for distributed computing. No, it's rather about creating a programming language that _itself_ is distributed.
 
-Instructions can be implemented in different programming languages and run on different hosts. The running program can be copied or even move between hosts
+Instructions can be implemented in different programming languages and run on different hosts. The running program can be copied or even move between hosts.
 
 ## Components
 * A virtual machine capable of loading and executing a program in a binary format.
@@ -21,3 +21,4 @@ Instructions can be implemented in different programming languages and run on di
 
 ## Roadmap
 TBD
+
