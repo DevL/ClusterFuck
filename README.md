@@ -6,7 +6,7 @@ ClusterFuck (working name, subject to change) is an experiment in creating a _di
 Instructions can be implemented in different programming languages and run on different hosts. The running program can be copied or even move between hosts.
 
 ## Components
-* A virtual machine capable of loading and executing a program in a binary format.
+* [CAVEAT](https://github.com/DevL/CAVEAT) A virtual machine capable of loading and executing a program in a binary format.
 * An assembler for parsing virtual assembly and converting it to a binary format.
 * A mechanism for broadcasting and finding instruction capabilities.
 
